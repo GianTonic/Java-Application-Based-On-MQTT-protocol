@@ -1,6 +1,7 @@
 # Applicazione Java basata sul protocollo MQTT 
 
-ARCHITETTURA MQTT:
+- ARCHITETTURA MQTT:
+
 L’architettura MQTT è progettata per supportare migliaia di client, collegati in locale e/o in remoto ad uno o più Server comunicanti. Quest‘ ultimi si occuperanno del processamento e dell’ instradamento dei messaggi in arrivo dai Client,  semplificando la comunicazione one-to-many (uno-a- molti). 
 MQTT garantisce affidabilità e consegna dei messaggi affidandosi ai sottostanti protocolli TCP (Transfer Control Protocol) e IP (Internet Protocol). TCP fornisce un servizio affidabile, implementato tramite notifiche di avvenuta ricezione del pacchetto (ACK) da parte del destinatario. Il protocollo IP invece, tramite il servizio best-effort (massimo sforzo) offre un certo livello di garanzia nella consegna dei messaggi .
 Tali caratteristiche si rilevano ideali per sfruttare al meglio la comunicazione tra i tanti dispositivi telemetrici, mobili, e sistemi operativi protagonisti della comunicazione  IoT. 
@@ -8,6 +9,7 @@ Un semplice scenario MQTT consiste in un insieme di processi client, conosciuti 
 
 --------------------------------------------------------
 - DESCRIZIONE IMPLEMENTAZIONE:
+
 Per l’implementazione del protocollo MQTT si è utilizzata la libreria Java di “Eclipse Paho”. 
 Per quanto riguarda l’implementazione delle due applicazioni che simulano il comportamento di Publisher e Subscriber si è utilizzato il linguaggio Java. 
 Tali applicazioni comunicano tramite il protocollo MQTT con due server virtualmente connessi tramite bridge (ponte). Un server è stato installato in locale, mentre l’altro è connesso in remoto.
