@@ -16,7 +16,9 @@ I dati raccolti dal Subscriber verranno raccolti in file in formato .csv in modo
 
 ------------------------------------------------------
 BROKER LOCALE UTILIZZATO:
--MOSQUITTO
+
+MOSQUITTO
+
 Per l'installazione in macchina Linux, distribuzione Ubuntu:
 
 sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
@@ -29,11 +31,13 @@ sudo service mosquitto stop
 
 ------------------------------------------------------
 BROKER REMOTO UTILIZZATO:
--test.mosquitto.org
+test.mosquitto.org
+
 ------------------------------------------------------
 
 SETTAGGIO BRIDGE TRA BROKER LOCALE/REMOTO:
-Nella directory d' installazione,sul file mosquitto.conf:
+
+Nella directory d'installazione,sul file mosquitto.conf:
 
 connection test
 address test.mosquitto.org:1883
