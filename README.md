@@ -1,4 +1,4 @@
-# Java-Application-Based-On-MQTT-protocol
+# Applicazione Java basata sul protocollo MQTT 
 
 ARCHITETTURA MQTT:
 L’architettura MQTT è progettata per supportare migliaia di client, collegati in locale e/o in remoto ad uno o più Server comunicanti. Quest‘ ultimi si occuperanno del processamento e dell’ instradamento dei messaggi in arrivo dai Client,  semplificando la comunicazione one-to-many (uno-a- molti). 
