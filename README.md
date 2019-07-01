@@ -46,10 +46,15 @@ test.mosquitto.org
 Nella directory d'installazione,sul file mosquitto.conf:
 
 connection test
+
 address test.mosquitto.org:1883
+
 topic root/temperature in 0 
+
 topic root/temperatureout out 0 
+
 try_private false
+
 bridge_attempt_unsubscribe true
 
 -----------------------------------------------------
