@@ -31,6 +31,7 @@ sudo service mosquitto stop
 
 ------------------------------------------------------
 BROKER REMOTO UTILIZZATO:
+
 test.mosquitto.org
 
 ------------------------------------------------------
